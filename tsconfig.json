@@ -8,10 +8,15 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
+    "esModuleInterop": true
   },
+  "include": ["src/**/*"],
   "exclude": [
+    "node_modules",
+    "src/__mocks__",
     "src/**/*.stories.tsx", 
     "src/**/*.stories.mdx",
+    "src/**/*.test.tsx",
     "src/**/*.test.ts"
   ]
 }
